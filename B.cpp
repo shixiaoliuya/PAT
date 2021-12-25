@@ -17,7 +17,7 @@ int main() {
 		if(Next[i] != -1)sum[Next[i]]++;
 	}
 	for(int i = 0; i < n; i++) {
-		if(sum[i] == 0) prenode = i;//ÕÒµ½µÚÒ»¸ö½Úµã 
+		if(sum[i] == 0) prenode = i;//æ‰¾åˆ°é¦–èŠ‚ç‚¹
 	}
 	int num = 0, ans[n+1] = {0};
 	while(num < n) {
